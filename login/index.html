@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+<body>
+
+  <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+    <!--Login container-->
+    <div class="bg-gray-100 p-5 flex rounded-2xl shadow-lg max-w-3xl">
+      <div class="md:w-[50%]  px-16">
+        <!--Login form-->
+        <h2 class="text-[#1e55c4] font-bold text-3xl">Login</h2>
+        <p class="text-sm mt-4 text-[#1e55c4]">If you are new, please <a href="#sign_up" class="hover:text-red-600 underline">sign up</a>.</p>
+
+        <form action="" class="flex flex-col gap-4">
+          <input class="p-2 mt-8 rounded-xl border" autofocus type="email" name="email" placeholder="Email">
+          <input class="p-2 rounded-xl border" type="password" name="password" placeholder="Password">
+          <button class="mt-3 bg-[#1e55c4]/80 rounded-3xl py-2 text-white hover:scale-105 duration-300" type="submit">Login</button>
+        </form>
+
+        <div class="mt-7 grid grid-cols-3 items-center text-gray-500">
+          <hr class="border-gray-500">
+          <p class="text-center text-sm">OR</p>
+          <hr class="border-gray-500">
+        </div>
+
+          <button class="hover:scale-105 duration-300 bg-white py-2 border w-full rounded-xl mt-5 flex items-center justify-center text-sm">
+            <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+            <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+            </svg>
+            <a href="#google_login">
+            Login with Google</a></button>
+
+            <p class="text-xs mt-4 border-b py-1">Forgot your password?</p>
+            <div class="mt-2 flex text-xs justify-between items-center">
+              <p class="">Don't have an account...</p>
+              <button class="py-2 px-5 bg-white border rounded-3xl hover:scale-110 duration-300"><a href="#sign_up">Register</a></button>
+            </div>
+
+      </div>
+
+      <div class="w-[50%]  md:block hidden">
+        <!--Image part-->
+        <img class="rounded-2xl" src="edu.jpg" alt="Image not available">
+      </div>
+    </div>
+  </section>
+    
+</body>
+</html>
