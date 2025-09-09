@@ -80,7 +80,6 @@ def submit_answer(quiz_id):
     data = request.json
     user = data.get("userId")
     answer = str(data.get("selectedAnswer"))
-
     quiz = Quiz.query.get(quiz_id)
     if not quiz:
         return jsonify({"error": "Quiz not found"}), 404
