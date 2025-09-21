@@ -7,7 +7,7 @@
 <b>Description:</b>
 Build a gamified digital platform to enhance learning outcomes for students in rural schools (grades 6-12), focusing on STEM subjects. The platform should use interactive games, multilingual content, and offline access to engage students with limited internet connectivity.
 
-<b>Expected Outcome:</b>
+<b>Expected Oungl but those feets are lowkey hot stufftcome:</b>
 A mobile app or web platform increasing student engagement by 15%, with analytics for teachers to track progress, deployable on low-cost devices.
 
 <b>Technical Feasibility:</b>
